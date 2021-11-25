@@ -14,3 +14,7 @@ This project just explores Grid layouts.
 Kevin powell @ youtube.
 
 # cool background image from unsplashed.com.
+
+## Improvements
+BEM css naming convention.
+Improved react folder structure.
