@@ -1,5 +1,5 @@
 import React from 'react'
- 
+import './Header.css'
 
 const Header = () => {
     return (
@@ -7,7 +7,7 @@ const Header = () => {
             <header>
                 <h1 className="logo"> Logo</h1>
                 <input type="checkbox" id="nav__toggle" className="nav__toggle"/>
-                <nav class="nav">
+                <nav className="nav">
                     <ul className="nav__list">
                         <li className="nav__item"><p className="nav__link">Home</p></li>
                         <li className="nav__item"><p   className="nav__link">About</p></li>
@@ -15,7 +15,7 @@ const Header = () => {
                         <li className="nav__item"><p   className="nav__link">Register</p></li>
                     </ul>
                 </nav>
-                <label for="nav__toggle" className="nav__toggle--label">
+                <label htmlFor="nav__toggle" className="nav__toggle--label">
                 <span></span>
                 </label>
             </header>

@@ -1,15 +1,4 @@
-*,*::before,*::after {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
-body {
-    margin:0;
-    background: #222;
-    font-family: sans-serif;
-    font-weight: 400;
-}
 :root {
     --background:rgba(8,214,178, .85);
 }
@@ -170,11 +159,3 @@ body {
 
 
  }
- .content {
-    height:200vh;
-    background-color: #333;
-     background-blend-mode: multiply;
-    background-size:cover;
-    display: grid;
-    place-items: center;
-}
